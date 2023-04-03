@@ -1,0 +1,8 @@
+# Ignore build output
+dist/
+
+# Ignore Prisma generated files
+.prisma/client/
+
+# Ignore node modules
+node_modules/

@@ -1,0 +1,48 @@
+{
+  "name": "auth-mv-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm run start:dev",
+    "build": "pnpm run build:app",
+    "start": "pnpm run start:app",
+    "prisma": "pnpm prisma"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^4.11.0",
+    "@trpc/server": "^10.16.0",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "passport": "^0.6.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-oauth2": "^1.7.0",
+    "passport-openidconnect": "^0.1.1",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/node": "^18.15.3",
+    "@types/passport": "^1.0.12",
+    "@types/passport-facebook": "^2.1.11",
+    "@types/passport-google-oauth20": "^2.0.11",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^2.8.4",
+    "prisma": "^4.11.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  }
+}

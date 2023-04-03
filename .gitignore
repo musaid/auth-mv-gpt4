@@ -1,0 +1,23 @@
+# Node modules and dependencies
+node_modules/
+
+# Prisma
+.pnpm
+.prisma/client/
+prisma/dev.db
+prisma/migrations/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+
+# TypeScript type declaration files
+*.d.ts
+
+# Editor and OS-specific files
+.vscode/
+.DS_Store
